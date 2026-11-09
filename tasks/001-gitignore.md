@@ -1,8 +1,8 @@
 # 001: Write `.gitignore`
 
 - **Status:** active
-- **Created:** YYYY-MM-DD
-- **Updated:** YYYY-MM-DD
+- **Created:** 2026-11-08
+- **Updated:** 2026-11-08
 - **Due:** 2026-11-01, before task 002
 
 ## Goal
@@ -65,5 +65,7 @@ If your data cannot be stored on GitHub, because they are too large or their lic
 `.gitignore` is pushed, and after `uv sync` in task 002, `git status` does not list `.venv/`. Close this task then.
 
 ## Progress log
+
+- 2026-11-08: Added `.gitignore` and committed it locally as `174d7b1`. `git check-ignore` confirms `.venv/` is ignored. The push failed because Git could not obtain a password, so this task remains active.
 
 ## Outcome
