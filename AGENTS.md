@@ -28,6 +28,8 @@ When the student asks for a plan, give it in words and write no code until the s
 
 The student replaces the three lines below and adds a line each time they correct the assistant on the same point twice.
 
-- Question: (one sentence)
-- Data: (the file in `data/`, what one row is, and its source URL and access date)
-- Measured variable: (its column name and unit)
+- Question: Does the water quality in the Cahaba River exceed the median limit of 35 µg/L total phosphorus, and how has the quality changed since the limit was set in September 2006?
+- Data: /Users/jlsouth1/chem527_project/data/wqp_cahaba_phosphorus.csv
+each row is an individual sample of river water taken from varying locations throughout the Cahaba River, dating from 2026 to as far back as 1974
+https://adem.alabama.gov/programs/water/wquality/tmdls/FinalCahabaRiverNutrientTMDLReport.pdf
+- Measured variable: ResultMeasureValue (mg/L as P)
