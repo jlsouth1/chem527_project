@@ -1,8 +1,8 @@
 # 002: Copy the course environment
 
-- **Status:** active
+- **Status:** done
 - **Created:** 2026-11-08
-- **Updated:** 2026-11-08
+- **Updated:** 2026-11-17
 - **Due:** 2026-11-01, after task 001
 
 ## Goal
@@ -80,4 +80,8 @@ The cell in step 4 prints Python 3.14 and the same package versions as a session
 
 - 2026-11-08: Copied `pyproject.toml`, `uv.lock`, and `.python-version` from the course clone and ran `uv sync`, which selected Python 3.14.7. Imports and version checks passed; Python 3.14.7, NumPy 2.5.3, pandas 3.0.6, Matplotlib 3.11.2, and SciPy 1.18.1 match the course clone's environment. `git status` does not list `.venv/`. The notebook kernel configured successfully, but the notebook-cell runner failed because its selected model was unavailable; the equivalent check passed in the `.venv` interpreter. Removed the temporary `check.ipynb`. Left the unrelated untracked `data/` directory untouched. Committed the environment files locally as `fb4cd45`; pushing failed because Git could not obtain a password.
 
+- 2026-11-17: Confirmed the push went through: `origin/main` contains `fb4cd45`. Deleted a leftover `check.ipynb`, recreated on 2026-11-11; the project notebook will end with its own version cell.
+
 ## Outcome
+
+The project environment matches the course's: Python 3.14.7, NumPy 2.5.3, pandas 3.0.6, Matplotlib 3.11.2 and SciPy 1.18.1, from `pyproject.toml`, `uv.lock` and `.python-version`, pushed in commit `fb4cd45`.

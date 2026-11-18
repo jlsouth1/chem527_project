@@ -1,8 +1,8 @@
 # 003: Topic declaration
 
-- **Status:** active
-- **Created:** YYYY-MM-DD
-- **Updated:** YYYY-MM-DD
+- **Status:** done
+- **Created:** 2026-11-08
+- **Updated:** 2026-11-17
 - **Due:** 2026-11-08, 11:59 pm
 
 ## Goal
@@ -58,4 +58,9 @@ The Canvas entry is in. Close this task after it is, with the URL you submitted 
 
 ## Progress log
 
+- 2026-11-08: Wrote `proposal.md` and `topic.ipynb`, which loads `data/wqp_cahaba_phosphorus.csv` with every column as text: 4,699 phosphorus results from 190 sites, 1974–2026. Five ADEM stations (C-1, C-2, C-3, CAHS-1, LC-1) have 23 to 83 growing-season samples before 2006 and 85 to 139 after. Committed and pushed as `08177bd` and submitted that commit on Canvas.
+- 2026-11-17: Mentor approved the topic. Committed a small wording edit to `proposal.md`'s note on the 2006 season.
+
 ## Outcome
+
+Topic declaration submitted on Canvas and approved by the mentor: https://github.com/jlsouth1/chem527_project/commit/08177bd60db9b3390a617159639818fa14e6d62e

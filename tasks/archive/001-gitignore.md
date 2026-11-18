@@ -1,8 +1,8 @@
 # 001: Write `.gitignore`
 
-- **Status:** active
+- **Status:** done
 - **Created:** 2026-11-08
-- **Updated:** 2026-11-08
+- **Updated:** 2026-11-17
 - **Due:** 2026-11-01, before task 002
 
 ## Goal
@@ -68,4 +68,8 @@ If your data cannot be stored on GitHub, because they are too large or their lic
 
 - 2026-11-08: Added `.gitignore` and committed it locally as `174d7b1`. `git check-ignore` confirms `.venv/` is ignored. The push failed because Git could not obtain a password, so this task remains active.
 
+- 2026-11-17: Confirmed the push went through: `origin/main` on GitHub contains `174d7b1`, and `git status` does not list `.venv/`.
+
 ## Outcome
+
+`.gitignore` is pushed (commit `174d7b1`) and ignores `.venv/`, `__pycache__/`, `.ipynb_checkpoints/`, `output/` and `.claude/settings.local.json`.

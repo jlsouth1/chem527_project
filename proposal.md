@@ -5,6 +5,7 @@ Jordan South, CHEM 527, topic declaration, 2026-11-08
 ## Question
 
 Question: Does the water quality in the Cahaba River exceed the median limit of 35 µg/L total phosphorus, and how has the quality changed since the limit was set in September 2006?
+
 ## Data
 
 - **Measurements.** Water Quality Portal (National Water Quality Monitoring Council), every phosphorus result in the Cahaba River watershed, hydrologic unit 03150202, from the Alabama Department of Environmental Management (ADEM), USGS and EPA. Query: <https://www.waterqualitydata.us/data/Result/search?huc=03150202&characteristicName=Phosphorus&characteristicName=Total%20Phosphorus%2C%20mixed%20forms&mimeType=csv&zip=no>, accessed 2026-11-08, committed unchanged as `data/wqp_cahaba_phosphorus.csv` (SHA-256 `85d57afa…bfa97`).
@@ -33,5 +34,5 @@ From 2011 on, C-1 and C-3 were sampled in step, so the after period has 13 to 19
 - *Results without a value.* 554 results are marked not detected and have no value; at the stations above, 4 to 22 per period. The notebook will state how they are treated and check whether the median changes.
 - *Which station is which compliance point.* ADEM station codes do not name a location. Matching C-1, C-2, C-3 and CAHS-1 to Roper Rd., Old Montgomery Hwy and Shelby Co. Hwy 52 needs ADEM's station descriptions or coordinates.
 - *No clean reference.* C-1, the most upstream main-stem station, had a higher median before 2006 than C-3, so it may lie below the Trussville wastewater plant and cannot serve as an unaffected control.
-- *The 2006 season.* The TMDL was finalized in September 2006, partway through that growing season. Counting the 2006 season as before the limit would provide the best results, as it would give each station time to improve their systems, making the data from 2007 onwards more accuarate.
+- *The 2006 season.* The TMDL was finalized in September 2006, partway through that growing season. Counting the 2006 season as before the limit would provide the most accurate results, as it would give each station time to improve their systems.
 **If the data cannot answer the question.** If the data prior to 2007 is not sufficient enough to come to a strong conclusion, then I shall perform my calculations focusing only on 2007 onwards.
