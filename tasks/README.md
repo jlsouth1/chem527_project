@@ -26,6 +26,7 @@ Newest first. Change the link to `archive/NNN-slug.md` when a task moves.
 
 | Number | Task | Status | Due |
 |---|---|---|---|
+| 005 | [Checking high results at station 21AWIC-672](archive/005-station-672-high-results.md) | done | 2026-12-09 |
 | 004 | [Working draft](004-working-draft.md) | active | 2026-11-22 |
 | 003 | [Topic declaration](archive/003-topic-declaration.md) | done | 2026-11-08 |
 | 002 | [Copy the course environment](archive/002-environment.md) | done | 2026-11-01 |
